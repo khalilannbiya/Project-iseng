@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: center;
+}
+.kotak {
+  background-image: linear-gradient(30deg, #feda75, #f91515, #c13584, #833ab4);
+  margin-top: 11em;
+  width: 200px;
+  height: 200px;
+  border-radius: 43px;
+  padding: 25px;
+}
+.kotak-dalem {
+  border: solid 10px #fdfdfd;
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.kotak-dalem .bulet {
+  border: solid 10px #fdfdfd;
+  border-radius: 50%;
+  margin-top: 1em;
+  width: 80px;
+  height: 80px;
+}
+.kotak-dalem .titik {
+  position: absolute;
+  border: solid 8px #fdfdfd;
+  /* width: 5px;
+  height: 5px; */
+  top: 9px;
+  right: 10px;
+  border-radius: 50%;
+}
