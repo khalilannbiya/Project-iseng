@@ -1,6 +1,6 @@
 # Project-iseng
 
-##Repo ini berisi beberapa project iseng untuk mengisi waktu luang
+## Repo ini berisi beberapa project iseng untuk mengisi waktu luang
 
 1. BTS-logo menggunakan HTML & CSS
 
